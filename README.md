@@ -1,334 +1,248 @@
-# Ethereum Project Management Repository
-
-This repository is used for project management for various initiatives affecting the Ethereum protocol. The main use of this repository is for the Execution and Consensus Layer AllCoreDevs meetings. It is also used for [Breakout Rooms](/Breakout-Room) on various protocol-related topics, such as [Ethereum 1.x](/Archive/ETH-1X), [The Merge](/Archive/Merge) and [Fee Market changes](/Archive/Fee-Market).
-
-[This Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y191cGFvZm9uZzhtZ3JtcmtlZ243aWM3aGs1c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) tracks upcoming protocol meetings.
-
-## AllCoreDevs Meetings Overview
-
-### Purpose
-
-AllCoreDevs is a weekly meeting held by the Ethereum development community to discuss technical issues and coordinate work on the Ethereum protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss potential protocol changes, testing and other related issues. 
-
-On one week, the focus of the call is on Ethereum's consensus layer (i.e. proof-of-stake, the Beacon Chain, etc.) and on alternate weeks, the focus of the call is on Ethereum's execution layer (i.e. the EVM, gas schedules, etc.). 
-
-The calls are streamed and saved on the [@EthereumProtocol YouTube channel](https://www.youtube.com/@ethereumprotocol). 
-
-### Agendas
-
-The agendas for calls are tracked in the Issues tab of this repository. To add an item to an agenda, please [open an issue in this repository](https://github.com/ethereum/pm/issues/new) which mentions the topic you want to discuss and links any relevant materials (EIPs, prototypes, etc.). Then, leave a comment in the agenda where you would like this to be discussed. You can see an example [here](https://github.com/ethereum/pm/issues/289#issuecomment-809501046).
-
-Anyone is welcome to add an item to the agenda as long as it follows these guidelines:
-
-- The topic is technical in nature.
-- The topic involves the Ethereum protocol at a low-level. This means Dapps and ERCs are generally not allowed as topics.
-- The topic should not be philosophical. The core developer meetings are not meant to decide philosophical contentious issues that should be decided by the community. There are exceptions to this, but generally these topics distract from more productive technical discussion.
-
-### Who Can Attend
-
-Protocol developers, researchers and EIP authors are invited to attend the meetings. Generally every Ethereum client is represented as well as key members of testing and security teams, and independent core contributors. Sometimes a non-core contributor with particular expertise on a topic is invited on to discuss a specific agenda item. If you feel you would contribute to the meetings by your attendance please reach out to [Tim Beiko](mailto:tim@ethereum.org).
-
-### Who Manages the Meetings
-
-Early in Ethereum's history, (2015-fall 2016) George Hallam facilitated the AllCoreDevs meetings. Starting in fall 2016, Hudson Jameson facilitated and recorded the meetings. In early 2018 Lane Rettig joined to help facilitate meetings, handle recordings, and publish notes from the meetings. 
-
-Today, Tim Beiko and Danny Ryan respectively facilitate the execution and consensus layer AllCoreDevs meetings. Breakout Rooms are usually chaired by the expert/champion for the topic at hand. The Ethereum Cat Herders provide full transcripts for AllCoreDevs meetings, as well as some Breakout Rooms. 
-
-The meetings are independent of any organization. However, Danny Ryan & Tim Beiko are contractors for the Ethereum Foundation and the Ethereum Foundation pays for the video-conference software used in the meetings. Livestreaming instruction for the meetings can be found [here](https://docs.google.com/document/d/1dF_Drs56ErV6wJgFmbzpdN-cINshKCsB61D92NS2JDg/edit).
-
-## Previous Meetings
-
-### Execution Layer 
-
-| №   | Date                                 | Agenda                                              | Notes                                                                                                                                                                    | Recording                                                                          |
-| --- | ------------------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| 171 | September 28, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/867) | [notes](AllCoreDevs-EL-Meetings/Meeting%20171.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1666905821723373568?s=20)      |[Video](https://www.youtube.com/watch?v=CPt3f3ughFM)
-| 168 | August 17, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/845) | [notes](AllCoreDevs-EL-Meetings/Meeting%20168.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1666905821723373568?s=20)      |[Video](https://www.youtube.com/watch?v=DyAtbK2MQG4)
-| 166 | July 20, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/834) | [notes](AllCoreDevs-EL-Meetings/Meeting%20166.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1682078353736744960)      |[Video](https://youtu.be/pTWm4EyStYg)
-| 165 | July 6, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/815) | [notes](AllCoreDevs-EL-Meetings/Meeting%20165.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1666905821723373568?s=20)      |[Video](https://www.youtube.com/watch?v=Voavkk8Es5E)
-| 164 | June 22, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/808) | [notes](AllCoreDevs-EL-Meetings/Meeting%20164.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1666905821723373568?s=20)      |[Video](https://www.youtube.com/watch?v=09Kzi2x06UM)
-| 163 | June 8, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/786) | [notes](AllCoreDevs-EL-Meetings/Meeting%20163.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1666905821723373568?s=20)      |[Video](https://youtu.be/LqaR-kdnOoU)
-| 162 | May 25, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/781) | [notes](AllCoreDevs-EL-Meetings/Meeting%20162.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1651612895892094977)      |[Video](https://youtu.be/ajLQVC3E_mk)
-| 161 | April 13, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/759) | [notes](AllCoreDevs-EL-Meetings/Meeting%20161.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1651612895892094977)      |[Video](https://youtu.be/ajLQVC3E_mk)
-| 160 | April 13, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/759) | [notes](AllCoreDevs-EL-Meetings/Meeting%20160.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1651612895892094977)      |[Video](https://youtu.be/ajLQVC3E_mk)
-| 159 | April 13, 2023, 14:00-15:30 UTC       | [agenda](https://github.com/ethereum/pm/issues/754) | [notes](AllCoreDevs-EL-Meetings/Meeting%20159.md)   \| [Twitter]()      |[Video](https://www.youtube.com/watch?v=u8Nm8AGyCQM)
-| 158 | Mar 30, 2023, 14:00-15:30 UTC         | [agenda](https://github.com/ethereum/pm/issues/744) | [notes](AllCoreDevs-EL-Meetings/Meeting%20158.md)   \| [Twitter](https://twitter.com/christine_dkim/status/1641883892939476995)      |[Video](https://youtu.be/RQ2WtyevRXE)
-| 157 | Mar 16, 2023, 14:00-15:30 UTC         | [agenda](https://github.com/ethereum/pm/issues/737) | [notes](AllCoreDevs-EL-Meetings/Meeting%20157.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1636410999027953664)      |[Video](https://youtu.be/ViLwzeIuJUc)
-| 156 | Mar 2, 2023, 14:00-15:30 UTC         | [agenda](https://github.com/ethereum/pm/issues/729) | [notes](AllCoreDevs-EL-Meetings/Meeting%20156.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1626258565035081728)      |[Video](https://youtu.be/GNhrb5txJ4M)
-| 155 | Feb 16, 2023, 14:00-15:30 UTC         | [agenda](https://github.com/ethereum/pm/issues/720) | [notes](AllCoreDevs-EL-Meetings/Meeting%20155.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1626258565035081728)      |[Video](https://www.youtube.com/live/GmwEa_HI2lE?feature=share)
-| 154 | February 9, 2023, 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/711) | [notes](AllCoreDevs-EL-Meetings/Meeting%20154.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1616108684974903301?cxt=HHwWisDS5aqSye0sAAAA)      |[Video](https://www.youtube.com/watch?v=YMu50yNUz5Y&ab_channel=EthereumFoundation)
-| 153 | January 19, 2023, 14:00-15:30 UTC         | [agenda](https://github.com/ethereum/pm/issues/704) | [notes](AllCoreDevs-EL-Meetings/Meeting%20153.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1616108684974903301?cxt=HHwWisDS5aqSye0sAAAA)      |[Video](https://youtu.be/hVeMHoUUZ30)
-| 152 | January 5, 2023, 14:00-15:30 UTC         | [agenda](https://github.com/ethereum/pm/issues/700) | [notes](AllCoreDevs-EL-Meetings/Meeting%20152.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1611042386611929089)      |[Video](https://youtu.be/SmcMwdHZqg8)
-| 151 | December 8, 2022, 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/675) | [notes](AllCoreDevs-EL-Meetings/Meeting%20151.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1600506054059913216?s=20&t=rvKEJhKepECkMQJjqzWrEw)      |[Video](https://www.youtube.com/watch?v=y8jZ11_CQGo&ab_channel=EthereumFoundation)
-| 150 | November 24, 2022, 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/662) | [notes](AllCoreDevs-EL-Meetings/Meeting%20150.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1595860968298672128?s=20&t=rvKEJhKepECkMQJjqzWrEw)      |[Video](https://www.youtube.com/watch?v=HX_Zr_gVeOE&ab_channel=EthereumFoundation)
-| 149 | November 10, 2022, 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/652) | [notes](AllCoreDevs-EL-Meetings/Meeting%20149.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1590695025746522112)      |[Video](https://www.youtube.com/watch?v=ZZx7d14vE10)
-| 148 | October 27, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/624) | [notes](AllCoreDevs-EL-Meetings/Meeting%20148.md)   \| [Twitter]()                                     | [video](https://www.youtube.com/watch?v=oQfEW8LdE88)
-| 147 | September 15, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/616) | [notes](AllCoreDevs-EL-Meetings/Meeting%20147.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1555241740113547264?s=20&t=hSBp1koehZprc7OsRK9yiA)                                             | [video](https://youtu.be/DdUt77_eWyc)
-| 146 | September 1, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/609) | [notes](AllCoreDevs-EL-Meetings/Meeting%20146.md)   \| [Twitter]()                                             | [video](https://youtu.be/GizYbtINRUs)
-| 145 | Thursday  August 18, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/592) | [notes](AllCoreDevs-EL-Meetings/Meeting%20145.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1560345029511589888)                                             | [video](https://www.youtube.com/watch?v=jJaCaS0WbIw)
-| 144 | August 4, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/583) | [notes](AllCoreDevs-EL-Meetings/Meeting%20144.md)   \| [Twitter](https://twitter.com/TimBeiko/status/1555241740113547264?s=20&t=hSBp1koehZprc7OsRK9yiA)                                             | [video](https://www.youtube.com/watch?v=vJYzfRH62Ok&t=20s&ab_channel=EthereumFoundation)
-| 143 | July 21, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/572) | [notes](AllCoreDevs-EL-Meetings/Meeting%20143.md) \| [Twitter](https://twitter.com/TimBeiko/status/1550115218046328832)                                             | [video](https://youtu.be/N80PgxELDYg)
-| 142 |July 8, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/562) | [notes](AllCoreDevs-EL-Meetings/Meeting%20142.md) \| [Twitter](https://twitter.com/TimBeiko/status/1545406541502693376)                                             | [video](https://youtu.be/K_Cjn74lMSY)
-| 141 | June 24, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/551) | [notes](AllCoreDevs-EL-Meetings/Meeting%20141.md)                                             | [video](https://www.youtube.com/watch?v=qu5idP-JLyQ)
-| 140 | Jun 10, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/538) | [notes](AllCoreDevs-EL-Meetings/Meeting%20140.md) \| [Twitter](https://twitter.com/TimBeiko/status/1535310908997570560)                                             | [video](https://www.youtube.com/watch?v=dByC5Bw8DvU&t=467s)
-| 139 | May 27, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/528) | [notes](AllCoreDevs-EL-Meetings/Meeting%20139.md) \| [Twitter](https://twitter.com/TimBeiko/status/1530265096156434432)                                             | [video](https://youtu.be/5mMd-XHAv2Q)
-| 137 | April 29, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/514) | [notes](AllCoreDevs-EL-Meetings/Meeting%20137.md) \| [Twitter](https://twitter.com/timbeiko/status/1520106955003424768?s=21&t=JBzpf73Azki1qKUaXwd01w)                                             | [video](https://youtu.be/SWWoniO6rZc)
-| 136 | April 15, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/508) | [notes](AllCoreDevs-EL-Meetings/Meeting%20136.md) \| [Twitter](https://twitter.com/TimBeiko/status/1515067269147111424)                                             | [video](https://youtu.be/JXbOeiPN_uE)
-| 134 | March 18, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/492) | [notes](AllCoreDevs-EL-Meetings/Meeting%20134.md) \| [Twitter](https://twitter.com/TimBeiko/status/1504913092420931584)                                             | [video](https://www.youtube.com/watch?v=Lbsjw-lzMIw)
-| 133 | March 4, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/481) | [notes](AllCoreDevs-EL-Meetings/Meeting%20133.md) \| [Twitter](https://twitter.com/TimBeiko/status/1499865801687375877)                                             | [video](https://youtu.be/ZKPElqIfteU)
-| 132 | February 18, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/472) | [notes](AllCoreDevs-EL-Meetings/Meeting%20132.md) \| [Twitter](https://twitter.com/TimBeiko/status/1494760753726779394?s=20&t=6luBXYB5bwOHssa43CBP5w)                                             | [video](https://youtu.be/Oo_Nnk3CdLA)
-| 131 | February 4, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/459) | [notes](AllCoreDevs-EL-Meetings/Meeting%20131.md) \| [Twitter](https://twitter.com/TimBeiko/status/1489710356452675584?s=20&t=GWE8hRg2NcPf8YLDMVFQCA)                                             | [video](https://youtu.be/_kt-r4J8PJc)
-| 130 | January 21, 2022, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/449) | [notes](AllCoreDevs-EL-Meetings/Meeting%20130.md) \| [Twitter](https://twitter.com/TimBeiko/status/1484607389164728321?s=20&t=baQvPyBe3sbD1tzEmfE8Cw)                                             | [video](https://youtu.be/VffwWtklJvA) 
-| 129 | January 7, 2022, 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/436) | [notes](AllCoreDevs-EL-Meetings/Meeting%20129.md) \| [Twitter](https://twitter.com/TimBeiko/status/1479481915325440008)                                             | [video](https://youtu.be/wCSNMSyJV7Y) 
-| 128 | December 10, 2021, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/428) | [notes](AllCoreDevs-EL-Meetings/Meeting%20128.md) \| [Twitter](https://twitter.com/TimBeiko/status/1469388841375059971)                                             | [video](https://youtu.be/Py1_Bw0frO0) 
-| 127 | November 26, 2021, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/416) | [notes](AllCoreDevs-EL-Meetings/Meeting%20127.md) \| [Twitter](https://twitter.com/TimBeiko/status/1464262630139334658)                                             | [video](https://youtu.be/js4HLK4MyQI)                         |
-| 126 | November 12, 2021, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/407) | [notes](AllCoreDevs-EL-Meetings/Meeting%20126.md) \| [Twitter](https://twitter.com/TimBeiko/status/1459240133752856577)                                             | [video](https://youtu.be/Kk-kZXazi18)                         |
-| 125 | October 29, 2021, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/401) | [notes](AllCoreDevs-EL-Meetings/Meeting%20125.md) \| [Twitter](https://twitter.com/TimBeiko/status/1454188180609986564)                                             | [video](https://www.youtube.com/watch?v=5cOWjMAuReI)                         |
-| 124 | October 15, 2021, 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/396) | [notes](AllCoreDevs-EL-Meetings/Meeting%20124.md) \| [Twitter](https://twitter.com/TimBeiko/status/1449047538103767044)                                             | [video](https://www.youtube.com/watch?v=BTtwbvZZpfs)                               |
-| 123 | October 1, 2021, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/391) | [notes](AllCoreDevs-EL-Meetings/Meeting%20123.md) \| [Twitter](https://twitter.com/TimBeiko/status/1443982196356771840?s=20)                                      | [video](https://youtu.be/-8TSQCwITA0)                                |
-| 121 | September 03,  2021, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/379) | [notes](AllCoreDevs-EL-Meetings/Meeting%20121.md) \| [Twitter](https://twitter.com/TimBeiko/status/1433831124267147264)                                      | [video](https://youtu.be/XxozI0Wpr7I)                                              |
-| 122 | Friday 17 September, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/384) | [notes](AllCoreDevs-EL-Meetings/Meeting%20122.md) \| [Twitter](https://mobile.twitter.com/TimBeiko/status/1438925438194126848)                                      | [video](https://www.youtube.com/watch?v=NorHRk5fFZU)                               |
-| 120 | Friday 20 August at 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/370) | [notes](AllCoreDevs-EL-Meetings/Meeting%20120.md) \| [Twitter](https://mobile.twitter.com/TimBeiko/status/1428757825048784899)                                      | [video](https://youtu.be/rlIgpf2V4ks)                                              |
-| 119 | Friday 6 August at 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/365) | [notes](AllCoreDevs-EL-Meetings/Meeting%20119.md) \| [Twitter](https://twitter.com/TimBeiko/status/1418618923172261892?s=20)                                        | [video](https://www.youtube.com/watch?v=jNxAB3WpAD0&ab_channel=EthereumFoundation) |
-| 118 | Friday 23 July at 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/354) | [notes](AllCoreDevs-EL-Meetings/Meeting%20118.md) \| [Twitter](https://twitter.com/TimBeiko/status/1418618923172261892?s=20)                                        | [video](https://youtu.be/tjvviOLy0hw)                                              |
-| 117 | Friday 09 July at 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/340) | [notes](AllCoreDevs-EL-Meetings/Meeting%20116.md) \| [Twitter]()                                                                                                    | [video](https://youtu.be/b5gh0Mw2oPU)                                              |
-| 116 | Friday 25 June at 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/337) | [notes](AllCoreDevs-EL-Meetings/Meeting%20116.md) \| [Twitter](https://twitter.com/TimBeiko/status/1408459851349467136)                                             | [video](https://www.youtube.com/watch?v=uhvhfxiC-NA)                               |
-| 115 | Friday 11 June at 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/330) | [notes](AllCoreDevs-EL-Meetings/Meeting%20115.md) \| [Twitter](https://twitter.com/TimBeiko/status/1403390897614561282)                                             | [video](https://www.youtube.com/watch?v=XYhN26UrJ5o)                               |
-| 114 | Friday 28 May at 14:00 UTC           | [agenda](https://github.com/ethereum/pm/issues/321) | [notes](AllCoreDevs-EL-Meetings/Meeting%20114.md) \| [Twitter](https://twitter.com/TimBeiko/status/1398329483434741762)                                             | [video](https://www.youtube.com/watch?v=7MSYLbn-Xro&ab_channel=EthereumFoundation) |
-| 113 | Thursday 14 May at 13:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/309) | [notes](AllCoreDevs-EL-Meetings/Meeting%20113.md) \| [Twitter](https://twitter.com/TimBeiko/status/1393230961890906115)                                             | [video](https://youtu.be/ODcNpWiLASk)                                              |
-| 112 | Thursday 30 April 2021, 13:00UTC     | [agenda](https://github.com/ethereum/pm/issues/316) | [notes](AllCoreDevs-EL-Meetings/Meeting%20112.md) \| [Twitter](https://twitter.com/TimBeiko/status/1388194718199128064)                                             | [video](https://youtu.be/uzjhLPtvTMQ)                                              |
-| 111 | Friday 23 April 2021, 14:00UTC       | [agenda](https://github.com/ethereum/pm/issues/301) | [notes](AllCoreDevs-EL-Meetings/Meeting%20111.md) \| [Twitter](https://twitter.com/TimBeiko/status/1385613482402275331)                                             | [video](https://youtu.be/C9hzAYkklQM)                                              |
-| 110 | Friday April 16th, 2021, 14:00 UTC   | [agenda](https://github.com/ethereum/pm/issues/293) | [notes](AllCoreDevs-EL-Meetings/Meeting%20110.md) \| [Twitter](https://twitter.com/TimBeiko/status/1383054611506864133)                                             | [video](https://www.youtube.com/watch?v=-H8UpqarZ1Y)                               |
-| 109 | Friday 02 Apr 2021, 14:00UTC         | [agenda](https://github.com/ethereum/pm/issues/289) | [notes](AllCoreDevs-EL-Meetings/Meeting%20109.md) \| [Twitter](https://twitter.com/TimBeiko/status/1377980135484260352)                                             | [video](https://youtu.be/V-Qz4UN6Z88)                                              |
-| 108 | Friday 19 Mar 2021, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/288) | [notes](AllCoreDevs-EL-Meetings/Meeting%20108.md) \| [Twitter](https://twitter.com/TimBeiko/status/1372903072377184257)                                             | [video](https://youtu.be/AclPXsRlgSc)                                              |
-| 107 | Friday 05 Mar 2021, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/287) | [notes](AllCoreDevs-EL-Meetings/Meeting%20107.md) \| [Twitter](https://twitter.com/TimBeiko/status/1367836983628824576)                                             | [video](https://youtu.be/xWfR-WxjmYg)                                              |
-| 106 | Friday 19 Feb 2021, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/286) | [notes](AllCoreDevs-EL-Meetings/Meeting%20106.md) \| [Twitter](https://twitter.com/TimBeiko/status/1362763004882817027)                                             | [video](https://www.youtube.com/watch?v=anrbnroO3dc)                               |
-| 105 | Friday 05 Feb 2021, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/241) | [notes](AllCoreDevs-EL-Meetings/Meeting%20105.md) \| [Twitter](https://twitter.com/TimBeiko/status/1357685104416460803)                                             | [video](https://youtu.be/ju92hAKzKcg)                                              |
-| 104 | Friday 22 Jan 2021, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/237) | [notes](AllCoreDevs-EL-Meetings/Meeting%20104.md) \| [Twitter](https://twitter.com/TimBeiko/status/1352615824859648001)                                             | [video](https://youtu.be/3xNfGNnQ5Vs)                                              |
-| 103 | Friday 8 Jan 2021, 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/232) | [notes](AllCoreDevs-EL-Meetings/Meeting%20103.md) \| [Twitter](https://twitter.com/TimBeiko/status/1347540679765811200)                                             | [video](https://www.youtube.com/watch?v=ITVMTHzAcg0)                               |
-| 102 | Friday 11 Dec 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/228) | [notes](AllCoreDevs-EL-Meetings/Meeting%20102.md) \| [Twitter](https://twitter.com/TimBeiko/status/1337395528837996547)                                             | [video](https://youtu.be/EPbZ4tU4P5A)                                              |
-| 101 | Friday 27 Nov 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/224) | [notes](AllCoreDevs-EL-Meetings/Meeting%20101.md) \| [Twitter](https://twitter.com/TimBeiko/status/1332324209649885184)                                             | [video](https://youtu.be/UGyqRoLwq1o)                                              |
-| 100 | Friday 13 Nov 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/221) | [notes](AllCoreDevs-EL-Meetings/Meeting%20100.md) \| [Twitter](https://twitter.com/TimBeiko/status/1327249352205615106)                                             | [video](https://youtu.be/5-614J9qNvY)                                              |
-| 99  | Friday 30 Oct 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/219) | [notes](AllCoreDevs-EL-Meetings/Meeting%2099.md) \| [Twitter](https://twitter.com/TimBeiko/status/1322176445825736706)                                              | [video](https://www.youtube.com/watch?v=GOWSrHtNZOQ)                               |
-| 98  | Friday 16 Oct 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/217) | [notes](AllCoreDevs-EL-Meetings/Meeting%2098.md) \| [Twitter](https://twitter.com/TimBeiko/status/1317097884236476416)                                              | [video](https://www.youtube.com/watch?v=LDSTqo0LKUM)                               |
-| 97  | Friday 02 Oct 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/211) | [notes](AllCoreDevs-EL-Meetings/Meeting%2097.md) \| [Twitter](https://twitter.com/TimBeiko/status/1312021038130106370)                                              | [video](https://youtu.be/v5Q5WPdN1jk)                                              |
-| 96  | Friday 18 Sep 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/206) | [notes](AllCoreDevs-EL-Meetings/Meeting%2096.md) \| [Twitter](https://twitter.com/TimBeiko/status/1306956314187243527)                                              | [video](https://youtu.be/HUUxwyoxU7k)                                              |
-| 95  | Friday 04 Sep 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/203) | [notes](AllCoreDevs-EL-Meetings/Meeting%2095.md) \| [Twitter](https://twitter.com/TimBeiko/status/1301880286959947777)                                              | [video](https://youtu.be/-Jefyrs4f70)                                              |
-| 94  | Friday 21 Aug 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/200) | [notes](AllCoreDevs-EL-Meetings/Meeting%2094.md) \| [Twitter](https://twitter.com/TimBeiko/status/1296808958842122245)                                              | [video](https://youtu.be/q6bIeSu7r9o)                                              |
-| 93  | Friday 07 Aug 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/196) | [notes](AllCoreDevs-EL-Meetings/Meeting%2093.md) \| [Twitter](https://twitter.com/TimBeiko/status/1291725797506482177)                                              | [video](https://youtu.be/Riu-PqrJVH4)                                              |
-| 92  | Friday 24 July 2020, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/195) | [notes](AllCoreDevs-EL-Meetings/Meeting%2092.md) \| [Twitter](https://twitter.com/TimBeiko/status/1286661280581918721)                                              | [video](https://youtu.be/RWX9vkY7Oas)                                              |
-| 91  | Friday 10 July 2020, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/192) | [notes](AllCoreDevs-EL-Meetings/Meeting%2091.md) \| [Twitter](https://twitter.com/TimBeiko/status/1281584671206211585)                                              | [video](https://youtu.be/RUZ3eJ81c0k)                                              |
-| 90  | Friday 26 June 2020, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/189) | [notes](AllCoreDevs-EL-Meetings/Meeting%2090.md) \| [Twitter](https://twitter.com/TimBeiko/status/1276512216557260802)                                              | [video](https://youtu.be/IZEcukn9J0Y)                                              |
-| 89  | Friday 12 June 2020, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/180) | [notes](AllCoreDevs-EL-Meetings/Meeting%2089.md) \| [Twitter](https://twitter.com/TimBeiko/status/1271428329875353601)                                              | [video](https://youtu.be/c_JmTqeQkU4)                                              |
-| 88  | Friday 29 May 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/172) | [notes](AllCoreDevs-EL-Meetings/Meeting%2088.md) \| [Twitter](https://twitter.com/TimBeiko/status/12663230278280519700)                                             | [video](https://youtu.be/UJ1jK73rKdk)                                              |
-| 87  | Friday 15 May 2020, 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/169) | [notes](AllCoreDevs-EL-Meetings/Meeting%2087.md) \| [Twitter](https://twitter.com/TimBeiko/status/1261290618078322689)                                              | [video](https://www.youtube.com/watch?v=bGgzALuyY3w)                               |
-| 86  | Friday 1 May 2020, 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/165) | [notes](AllCoreDevs-EL-Meetings/Meeting%2086.md) \| [Twitter](https://twitter.com/TimBeiko/status/1256214501973807114)                                              | [video](https://www.youtube.com/watch?v=MOZ7_0Tb95M)                               |
-| 85  | Friday 17 April 2020, 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/164) | [notes](AllCoreDevs-EL-Meetings/Meeting%2085.md) \| [Twitter](https://twitter.com/TimBeiko/status/1251143420497719298)                                              | [video](https://www.youtube.com/watch?v=KlzwFLOj6Bw&feature=youtu.be)              |
-| 84  | Friday 3 April 2020, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/162) | [notes](AllCoreDevs-EL-Meetings/Meeting%2084.md) \| [Twitter](https://twitter.com/TimBeiko/status/1246069932179238912)                                              | [video](https://www.youtube.com/watch?v=JqxVvJBhTxo)                               |
-| 83  | Friday 20 March 2020, 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/159) | [notes](AllCoreDevs-EL-Meetings/Meeting%2083.md) \| [Twitter](https://twitter.com/TimBeiko/status/1241001075739701248)                                              | [video](https://www.youtube.com/watch?v=vDGj660uZE0)                               |
-| 82  | Friday 6 March 2020, 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/155) | [notes](AllCoreDevs-EL-Meetings/Meeting%2082.md) \| [Twitter](https://twitter.com/TimBeiko/status/1235924874973138944)                                              | [video](https://www.youtube.com/watch?v=kham8c0qhmw)                               |
-| 81  | Friday 21 February 2020, 14:00 UTC   | [agenda](https://github.com/ethereum/pm/issues/152) | [notes](AllCoreDevs-EL-Meetings/Meeting%2081.md) \| [Twitter](https://twitter.com/TimBeiko/status/1230854066718355456)                                              | [video](https://www.youtube.com/watch?v=zSRzlC_dCx8&feature=youtu.be)              |
-| 80  | Friday, February 7, 2020 14:00 UTC   | [agenda](https://github.com/ethereum/pm/issues/150) | [notes](AllCoreDevs-EL-Meetings/Meeting%2080.md) \| [Twitter](https://twitter.com/TimBeiko/status/1225780379107368961)                                              | [video](https://www.youtube.com/watch?v=535tJTI0c58&feature=youtu.be)              |
-| 79  | Friday, January 24, 2020 14:00 UTC   | [agenda](https://github.com/ethereum/pm/issues/148) | [notes](AllCoreDevs-EL-Meetings/Meeting%2079.md) \| [Twitter](https://twitter.com/TimBeiko/status/1220703467536252937)                                              | [video](https://www.youtube.com/watch?v=0-Vld7GTRhQ)                               |
-| 78  | Friday, January 10, 2020 14:00 UTC   | [agenda](https://github.com/ethereum/pm/issues/147) | [notes](AllCoreDevs-EL-Meetings/Meeting%2078.md) \| [Twitter](https://twitter.com/TimBeiko/status/1215631141975265285)                                              | [video](https://www.youtube.com/watch?v=snEdgekxJto)                               |
-| 77  | Friday, December 13, 2019, 14:00 UTC | [agenda](https://github.com/ethereum/pm/issues/142) | [notes](AllCoreDevs-EL-Meetings/Meeting%2077.md) \| [Twitter](https://twitter.com/TimBeiko/status/1205483535513137157)                                              | [video](https://www.youtube.com/watch?v=HpoBvMylPfk)                               |
-| 76  | Friday, November 29, 2019 14:00 UTC  | [agenda](https://github.com/ethereum/pm/issues/140) | [notes](AllCoreDevs-EL-Meetings/Meeting%2076.md) \| [Twitter](https://twitter.com/TimBeiko/status/1200411449010597889)                                              | [video](https://www.youtube.com/watch?v=BMMkxeH72U0)                               |
-| 75  | Friday, November 15, 2019 14:00 UTC  | [agenda](https://github.com/ethereum/pm/issues/138) | [notes](AllCoreDevs-EL-Meetings/Meeting%2075.md) \| [Twitter](https://twitter.com/TimBeiko/status/1195336500629659650)                                              | [video](https://www.youtube.com/watch?v=3qZFiETlDtk)                               |
-| 74  | Friday, November 1, 2019 14:00 UTC   | [agenda](https://github.com/ethereum/pm/issues/134) | [notes](AllCoreDevs-EL-Meetings/Meeting%2074.md) \| [Twitter](https://twitter.com/TimBeiko/status/1190266998959345664)                                              | [video](https://www.youtube.com/watch?v=aZ0S_oLSwhE)                               |
-| 73  | Friday, October 25, 2019 14:00 UTC   | [agenda](https://github.com/ethereum/pm/issues/133) | [notes](AllCoreDevs-EL-Meetings/Meeting%2073.md) \| [Twitter](https://twitter.com/TimBeiko/status/1187721328696135681)                                              | [video](https://www.youtube.com/watch?v=zT4TzlXQ6wA)                               |
-| 72  | Friday, October 4, 2019 14:00 UTC    | [agenda](https://github.com/ethereum/pm/issues/129) | [notes](AllCoreDevs-EL-Meetings/Meeting%2072.md) \| [Twitter](https://twitter.com/TimBeiko/status/1180108313989541889)                                              | [video](https://www.youtube.com/watch?v=rPD2EpDDI-0)                               |
-| 71  | Friday, September 20, 2019 14:00 UTC | [agenda](https://github.com/ethereum/pm/issues/125) | [notes](AllCoreDevs-EL-Meetings/Meeting%2071.md) \| [Twitter](https://twitter.com/TimBeiko/status/1175029329354534914)                                              | [video](https://www.youtube.com/watch?v=OjJd2G0pmeM)                               |
-| 70  | Friday, September 6, 2019 14:00 UTC  | [agenda](https://github.com/ethereum/pm/issues/123) | [notes](AllCoreDevs-EL-Meetings/Meeting%2070.md) \| [Twitter](https://twitter.com/TimBeiko/status/1169976701302054913)                                              | [video](https://www.youtube.com/watch?v=6m0So81_j2Q)                               |
-| 69  | Friday, August 23, 2019 14:00 UTC    | [agenda](https://github.com/ethereum/pm/issues/121) | [notes](AllCoreDevs-EL-Meetings/Meeting%2069.md) \| [Twitter](https://twitter.com/TimBeiko/status/1164856447462760450)                                              | [video](https://www.youtube.com/watch?v=yO0WdT-J64w)                               |
-| 68  | Thursday, August 15, 2019 22:00 UTC  | [agenda](https://github.com/ethereum/pm/issues/119) | [notes](AllCoreDevs-EL-Meetings/Meeting%2068.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=08eaI8JjSbw)                               |
-| 67  | Friday, August 2, 2019 06:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/116) | [notes](AllCoreDevs-EL-Meetings/Meeting%2067.md) \| [Twitter](https://twitter.com/TimBeiko/status/1157165626407784449)                                              | [video](https://www.youtube.com/watch?v=fJd_xYnYrUU)                               |
-| 66  | Friday, July 26, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/113) | [notes](AllCoreDevs-EL-Meetings/Meeting%2066.md) \| [Twitter](https://twitter.com/TimBeiko/status/1154746284483502085)                                              | [video](https://www.youtube.com/watch?v=DzmfR2P9kFk)                               |
-| 65  | Friday, July 19, 2019 22:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/111) | [notes](AllCoreDevs-EL-Meetings/Meeting%2065.md) \| [Twitter](https://twitter.com/TimBeiko/status/1151973274315821057)                                              | [video](https://www.youtube.com/watch?v=41kiRf1E-jI)                               |
-| 64  | Friday, July 5, 2019 06:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/107) | [notes](AllCoreDevs-EL-Meetings/Meeting%2064.md) \| [Twitter](https://twitter.com/TimBeiko/status/1147020585412825088)                                              | [video](https://www.youtube.com/watch?v=2D_DqJ8jL9Y)                               |
-| 63  | Friday, June 21, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/102) | [notes](AllCoreDevs-EL-Meetings/Meeting%2063.md) \| [Twitter](https://twitter.com/TimBeiko/status/1142067867376136199)                                              | [video](https://www.youtube.com/watch?v=Cl5zGk-3Ej4)                               |
-| 62  | Fri, May 24, 2019 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/99)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2062.md) \| [Twitter](https://twitter.com/TimBeiko/status/1131919178980646913)                                              | [video](https://youtu.be/lF_XxqxgVuA)                                              |
-| 61  | Fri, May 10, 2019 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/97)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2061.md) \| [Twitter](https://twitter.com/TimBeiko/status/1126840603961167873)                                              | [video](https://www.youtube.com/watch?v=CNcBuJ6wivE)                               |
-| 60  | Fri, April 26, 2019 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/95)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2060.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=O_DE4NwOz9A)                               |
-| 59  | Fri, April 12, 2019 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/93)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2059.md) \| [Twitter](https://twitter.com/TimBeiko/status/1116699769840254977)                                              | [video](https://www.youtube.com/watch?v=gfC92gQKKnI)                               |
-| 58  | Fri, March 29, 2019 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/89)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2058.md) \| [Twitter](https://twitter.com/TimBeiko/status/1111628119629271043)                                              | [video](https://www.youtube.com/watch?v=v8Psbo8zY4Y)                               |
-| 57  | Fri, March 15, 2019 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/83)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2057.md) \| [Twitter](https://twitter.com/TimBeiko/status/1106557410779512832)                                              | [video](https://www.youtube.com/watch?v=GQ0kbH0iSfI)                               |
-| 56  | Fri, March 1, 2019 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/82)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2056.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=q3ylladkuYY)                               |
-| 55  | Fri, February 15, 2019 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/79)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2055.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=NUz9_SpG84g)                               |
-| 54  | Fri, February 1, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/73)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2054.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=qBpImOhpWFg)                               |
-| 53  | Fri, January 18, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/70)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2053.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=45mrrVrw4x8)                               |
-| 52  | Fri, January 4, 2019 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/66)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2052.md)                                                                                                                    | [video](https://youtu.be/iSc3TbjZu1k)                                              |
-| 51  | Fri, December 7, 2018 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/64)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2051.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=V4sAl-B8yZU)                               |
-| 1X  | Fri, November 30, 2018 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/65)  | [notes](AllCoreDevs-EL-Meetings/Eth1x%20Sync%201.md)                                                                                                                | not recorded                                                                       |
-| 50  | Fri, November 23, 2018 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/62)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2050.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=wfxvCEhglTM)                               |
-| 49  | Fri, November 9, 2018 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/60)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2049.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=DUUOCDxvKbw)                               |
-| C2  | Fri, October 19, 2018 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/61)  | [notes](AllCoreDevs-EL-Meetings/Constantinople%20Meeting%202.md)                                                                                                    | [video](https://www.youtube.com/watch?v=5Q67tmkZ5So)                               |
-| 48  | Fri, October 12, 2018 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/59)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2048.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=lz5CcpnQ1_s)                               |
-| 47  | Fri, September 28, 2018 14:00 UTC    | [agenda](https://github.com/ethereum/pm/issues/58)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2047.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=z2mefVnZHpw)                               |
-| 46  | Fri, September 14, 2018 14:00 UTC    | [agenda](https://github.com/ethereum/pm/issues/56)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2046.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=TafZui-DnV0)                               |
-| C1  | Fri, August 31, 2018 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/55)  | None                                                                                                                                                                     | [video](https://www.youtube.com/watch?v=mAs3JZHroKM)                               |
-| 45  | Fri, August 24, 2018 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/54)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2045.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=6CZ1uO_WxVk)                               |
-| 44  | Fri, August 10, 2018 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/52)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2044.md)                                                                                                                    | [video](https://youtu.be/0Lyn5OryooA)                                              |
-| 43  | Fri, July 27, 2018 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/51)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2043.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/929wgu/live_ethereum_core_devs_meeting_43_072718_starts/)   | [video](https://www.youtube.com/watch?v=6I7SRa58-9M)                               |
-| 42  | Fri, July 13, 2018 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/50)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2042.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=TWL6QaCsl1I)                               |
-| 41  | Fri, June 29, 2018 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/46)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2041.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=HpCMguxraBA)                               |
-| 40  | Fri, June 15, 2018 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/44)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2040.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=8-AZys80RrU)                               |
-| 39  | Fri, June 1, 2018 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/43)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2039.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=7FNRWEQ_H7w)                               |
-| 38  | Fri, May 18, 2018 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/40)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2038.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=1WBuF8cMKUk)                               |
-| 37  | Fri, April 20, 2018 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/37)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2037.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=vKumx5CIA-k)                               |
-| 36  | Fri, April 6, 2018 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/36)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2036.md)                                                                                                                    | [video](https://www.youtube.com/watch?v=SoPfoNpqG0k)                               |
-| 35  | Fri, March 23, 2018 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/33)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2035.md)                                                                                                                    | [video](https://youtu.be/HHK6xhuSyUU)                                              |
-| 34  | Fri, February 23, 2018 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/32)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2034.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/7zpxe3/notes_from_ethereum_core_devs_meeting_34_22318/)     | [video](https://youtu.be/GhUtruRZOlo)                                              |
-| 33  | Fri, February 9, 2018 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/31)  | [video](https://youtu.be/wPBzs2NBnsA)                                                                                                                                    |
-| 32  | Fri, January 26, 2018 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/30)  | [video](https://youtu.be/ZtPy9r0jthI)                                                                                                                                    |
-| 31  | Fri, January 12, 2018 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/29)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2031.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/7pu8hr/live_1400_utc_ethereum_core_devs_meeting_31_011218/) | [video](https://youtu.be/biNCOCQdjQ0)                                              |
-| 30  | Fri, December 15, 2017 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/28)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2030.md)                                                                                                                    | [video](https://youtu.be/naPA7tjrgsk)                                              |
-| 29  | Fri, December 1, 2017 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/27)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2029.md)                                                                                                                    | [video](https://youtu.be/1GulA7iA-O0)                                              |
-| 28  | Fri, November 17, 2017 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/26)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2028.md)                                                                                                                    | [video](https://youtu.be/8S-MEGYq_CI)                                              |
-| 27  | Fri, October 20, 2017 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/25)  | None                                                                                                                                                                     | [video](https://youtu.be/ZN-AtGgtmtA)                                              |
-| 26  | Fri, October 6, 2017 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/24)  | None                                                                                                                                                                     | [video](https://youtu.be/AC2vL7hxu4c)                                              |
-| 25  | Fri, September 22, 2017 14:00 UTC    | [agenda](https://github.com/ethereum/pm/issues/23)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2025.md)                                                                                                                    | [video](https://youtu.be/gxtftZB7_jA)                                              |
-| 24  | Fri, September 8, 2017 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/22)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2024.md)                                                                                                                    | [video](https://youtu.be/_5Tp_U1jBww)                                              |
-| 23  | Fri, August 25, 2017 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/21)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2023.md)                                                                                                                    | [video](https://youtu.be/PQjeAZyL2_w)                                              |
-| 22  | Fri, August 11, 2017 14:00 UTC       | [agenda](https://github.com/ethereum/pm/issues/20)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2022.md)                                                                                                                    | [video](https://youtu.be/R_943As7WMg)                                              |
-| 21  | Fri, July 28, 2017 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/19)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2021.md)                                                                                                                    | [video](https://youtu.be/GK4a6Y5wnFY)                                              |
-| 20  | Fri, July 14, 2017 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/18)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2020.md)                                                                                                                    | [video](https://youtu.be/hRQg_lHEKl4)                                              |
-| 19  | Fri, June 30, 2017 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/17)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2019.md)                                                                                                                    | [video](https://youtu.be/wLaI7680I4w)                                              |
-| 18  | Fri, June 16, 2017 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/16)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2018.md)                                                                                                                    | [video](https://youtu.be/8jWhPylWros)                                              |
-| 17  | Fri, June 3, 2017 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/15)  | None                                                                                                                                                                     | [video](https://youtu.be/E77sdcZZH0s)                                              |
-| 16  | Fri, May 19, 2017 14:00 UTC          | [agenda](https://github.com/ethereum/pm/issues/14)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2016.md)                                                                                                                    | [video](https://youtu.be/brhanl8T2UY)                                              |
-| 15  | Fri, May 5, 2017 14:00 UTC           | [agenda](https://github.com/ethereum/pm/issues/13)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2015.md)                                                                                                                    | not recorded                                                                       |
-| 14  | Fri, April 21, 2017 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/12)  | [notes](AllCoreDevs-EL-Meetings/Meeting%2014.md)                                                                                                                    | [video](https://youtu.be/PGi0vBxDPHY)                                              |
-| 13  | Fri, April 7, 2017 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/8)   | [notes](AllCoreDevs-EL-Meetings/Meeting%2013.md)                                                                                                                    | [video](https://youtu.be/aGeGvZ5uS8s)                                              |
-| 12  | Fri, March 17, 2017 14:00 UTC        | [agenda](https://github.com/ethereum/pm/issues/7)   | [notes](AllCoreDevs-EL-Meetings/Meeting%2012.md)                                                                                                                    | [video](https://youtu.be/g2gsYRlThD4)                                              |
-| 11  | Fri, March 3, 2017 14:00 UTC         | [agenda](https://github.com/ethereum/pm/issues/6)   | [notes](AllCoreDevs-EL-Meetings/Meeting%2011.md)                                                                                                                    | [video](https://youtu.be/EiXwg9vjGdY)                                              |
-| 10  | Fri, February 10, 2017 14:00 UTC     | [agenda](https://github.com/ethereum/pm/issues/5)   | [notes](AllCoreDevs-EL-Meetings/Meeting%2010.md)                                                                                                                    | [video](https://youtu.be/huYl7eOlKJE)                                              |
-| 9   | Wed, January 25, 2017 14:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/3)   | [notes](AllCoreDevs-EL-Meetings/Meeting%209.md)                                                                                                                     | [video](https://youtu.be/ex51Gb3SVqo)                                              |
-| 8   | Fri, October 28, 2016 13:00 UTC      | [agenda](https://github.com/ethereum/pm/issues/1)   | [notes](AllCoreDevs-EL-Meetings/Meeting%208.md)                                                                                                                     | not recorded                                                                       |
-| 7   | Fri, September 2, 2016               | None                                                | [notes](Archive/EIPs-Wiki/Notes%20for%20Core%20Dev%20Meeting%209%202.md)                                                                                               | not recorded                                                                       |
-| ?   | Mon, May 2, 2016                     | None                                                | [notes](Archive/EIPs-Wiki/Meeting%202016%2005%202.md)                                                                                                                  | not recorded                                                                       |
-| 2   | Fri, January 1, 2016                 | None                                                | [notes](Archive/EIPs-Wiki/Notes.md)                                                                                                                                    | not recorded                                                                       |
-| 1   | Mon, November 30, 2015               | None                                                | [notes](Archive/EIPs-Wiki/Notes.md)                                                                                                                                    | not recorded                                                                       |
-| 0   | ??                                   | None                                                | [notes](Archive/EIPs-Wiki/Notes.md)                                                                                                                                    | not recorded                                                                       |
+# Execution Layer Meeting 174 [2023-11-09]
 
 
-#### Perma-archived Meetings
+### Meeting Date/Time: Nov 9, 2023, 14:00-15:30 UTC
+### Meeting Duration: 60 Mins
+### Moderator: Tim Beiko
+###  [ GitHub Agenda] (https://github.com/ethereum/pm/issues/895)
 
-The audio files of the Previous Meetings are stored permanently on [Permacast](./AllCoreDevs-EL-Meetings/perma-archive.md).
+### [Audio Video of the Meeting](https://www.youtube.com/watch?v=TQ2XEvMzvFg) 
 
-### Consensus Layer
 
-**Note: given the recent transition from the [eth2.0-pm repository](https://github.com/ethereum/eth2.0-pm), some of the links below may be broken.**
 
- №  | Date                             | Notes          | Recording            |
---- | -------------------------------- | -------------- | -------------------- |
-112| Thursday 2023/6/29 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/821) \| [notes](AllCoreDevs-CL-Meetings/Call_112.md) \| no reddit | [video](https://youtu.be/zdqtl9x_UjA)
-111| Thursday 2023/6/15 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/809) \| [notes](AllCoreDevs-CL-Meetings/Call_111.md) \| no reddit | [video](https://www.youtube.com/watch?v=ybgQuRcz9sg)
-109| Thursday 2023/5/18 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/783) \| [notes](AllCoreDevs-CL-Meetings/Call_109.md) \| no reddit | [video](https://github.com/ethereum/pm/issues/783)
-108| Thursday 2023/5/4 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/771) \| [notes](AllCoreDevs-CL-Meetings/Call_108.md) \| no reddit | [video](https://www.youtube.com/watch?v=RZnf3K1i3NM)
-107| Thursday 2023/4/20 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/756) \| [notes](AllCoreDevs-CL-Meetings/Call_107.md) \| no reddit | [video](https://youtu.be/Iy5zTJIXhQU)
-106| Thursday 2023/4/6 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/752) \| [notes](AllCoreDevs-CL-Meetings/Call_106.md) \| no reddit | [video](https://youtu.be/MrHh_jS4lZY)
-105| Thursday 2023/2/23 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/747) \| [notes](AllCoreDevs-CL-Meetings/Call_105.md) \| no reddit | [video](https://youtu.be/Xc6Ss-m_nlE)
-104| Thursday 2023/3/9 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/738) \| [notes](AllCoreDevs-CL-Meetings/Call_104.md) \| no reddit | [video](https://www.youtube.com/watch?v=C5SmmkriuwA)
-103| Thursday 2023/2/23 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/731) \| [notes](AllCoreDevs-CL-Meetings/Call_103.md) \| no reddit | [video](https://youtu.be/io7ALEfxJsE)
-102| February 9, 2023, 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/711) \| [notes](AllCoreDevs-CL-Meetings/Call_102.md) \| no reddit | [video](https://youtu.be/YMu50yNUz5Y)
-101| Thursday 2022/12/15 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/702) \| [notes](AllCoreDevs-CL-Meetings/Call_101.md) \| no reddit | [video](https://youtu.be/Z-0z5-7hGvo)
-100| Thursday 2022/12/15 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/688) \| [notes](AllCoreDevs-CL-Meetings/Call_100.md) \| no reddit | [video](https://youtu.be/UazJO0fQ3Ho)
-99| Thursday 2022/12/1 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/667) \| [notes](AllCoreDevs-CL-Meetings/call_099.md) \| no reddit | [video](https://youtu.be/KFc1sWYlVZ4)
-98| Thursday 2022/11/17 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/660) \| [notes](AllCoreDevs-CL-Meetings/call_098.md) \| no reddit | [video](https://www.youtube.com/watch?v=IK1jNCQz5yk)
-97| Thursday 2022/11/3 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/630) \| [notes](AllCoreDevs-CL-Meetings/call_097.md) \| no reddit | [video](https://youtu.be/GWkhFCvwOT4)
-96| Thursday 2022/9/22 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/629) \| [notes](AllCoreDevs-CL-Meetings/call_096.md) \| no reddit | [video](https://www.youtube.com/watch?v=_yogw67HxZY)
-95| Thursday 2022/9/8 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/618) \| [notes](AllCoreDevs-CL-Meetings/call_095.md) \| no reddit | [video](https://youtu.be/ir-gnBm2GZ4)
-94| Thursday 2022/8/25 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/598) \| [notes](AllCoreDevs-CL-Meetings/call_094.md) \| no reddit | [video](https://youtu.be/tjmpu8O-xsA)
-93| Thursday 2022/8/11 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/594) \| [notes](AllCoreDevs-CL-Meetings/Call_093.md) \| no reddit | [video](https://www.youtube.com/watch?v=CIAGQMUKEZ4)
-92| Thursday 2022/7/28 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/574) \| [notes](AllCoreDevs-CL-Meetings/call_092.md) \| no reddit | [video](https://www.youtube.com/watch?v=XDfNg8mdC10&ab_channel=EthereumFoundation)
-91| Thursday 2022/7/14 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/566) \| [notes](AllCoreDevs-CL-Meetings/call_91.md) \| no reddit | [video](https://youtu.be/yBEPzzeo1a4)
-90| Thursday 2022/6/30 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/555) \| [notes](AllCoreDevs-CL-Meetings/call_90.md) \| no reddit | [video](https://youtu.be/Fid8hTxkRHM)
-89| Thursday 2022/6/16 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/549) \| [notes](AllCoreDevs-CL-Meetings/call_089) \| no reddit | [video](https://youtu.be/WHOZ_2tlTqk)
-88|Thu, May 19, 2022 1400UTC |[agenda](https://github.com/ethereum/pm/issues/527) \| [notes](AllCoreDevs-CL-Meetings/call_088.md) \| no reddit | [video](https://www.youtube.com/watch?v=4oI48BEijVw)
-87|Thu, May 19, 2022 1400UTC |[agenda](https://github.com/ethereum/pm/issues/527) \| [notes](AllCoreDevs-CL-Meetings/call_087.md) \| no reddit | [video](https://youtu.be/-6dZVes6aWc)
-86|Thursday 2022/5/5 at 14:00 UTC |[agenda](https://github.com/ethereum/pm/issues/521) \| [notes](AllCoreDevs-CL-Meetings/call_086.md) \| no reddit | [video](https://youtu.be/nnjeqZK7jgU)
-85|Thu, April 4, 2022 1400UTC |[agenda](https://github.com/ethereum/pm/issues/510) \| [notes](AllCoreDevs-CL-Meetings/call_085.md) \| no reddit | [video](https://www.youtube.com/watch?v=rYWF7N8tS0g&t=3830s)
-84|Thu, March 24, 2022 1400UTC|[agenda](https://github.com/ethereum/pm/issues/501) \| [notes](AllCoreDevs-CL-Meetings/call_084.md) \| reddit | [video](https://youtu.be/ThoT6-eLTN0)
-83|Thu, March 10, 2022 1400UTC|[agenda](https://github.com/ethereum/pm/issues/489) \| [notes](AllCoreDevs-CL-Meetings/call_83.md) \| reddit | [video](https://youtu.be/SEVY6-Zr2OM)
-81|Thu, Feb 10, 2022 1400UTC|[agenda](https://github.com/ethereum/pm/issues/475) \| [notes](AllCoreDevs-CL-Meetings/call_081.md) \| reddit | [video](https://youtu.be/DtwTZWZrZMY)
-80|Thur, Jan 27, 2022 14:00UTC|[agenda](https://github.com/ethereum/pm/issues/458) \| [notes](AllCoreDevs-CL-Meetings/call_080.md) \| reddit | [video](https://youtu.be/Bi2qZ2epaPM)
-79|Thu, Jan 13, 2022 1400UTC|[agenda](https://github.com/ethereum/pm/issues/443) \| [notes](AllCoreDevs-CL-Meetings/call_079.md) \| reddit | [video](https://youtu.be/izyYW9-HbNk)
-78|Thu, Dec 16, 2021 1400UTC|[agenda](https://github.com/ethereum/pm/issues/439) \| [notes](https://hackmd.io/@benjaminion/HyxWQTdqY) \| reddit | No recording
-77|Thu, Dec 2, 2021 1400UTC|[agenda](https://github.com/ethereum/pm/issues/429) \| [notes](AllCoreDevs-CL-Meetings/call_077.md) \| reddit | [video](https://youtu.be/1fIg_t6hZ8U)
-76|Thu, Nov 18, 2021 1400UTC|[agenda](https://github.com/ethereum/pm/issues/418) \| [notes](AllCoreDevs-CL-Meetings/call_076.md) \| reddit | [video](https://www.youtube.com/watch?v=31Jxh9_xXvY)
-75|Thu, Nov 4, 2021 1400UTC|[agenda](https://github.com/ethereum/pm/issues/412) \| [notes](AllCoreDevs-CL-Meetings/call_075.md)  \| reddit | [video](https://youtu.be/9U_xj_zCMYg)
-74|Thu, Oct 21, 2021 1400UTC|[agenda](https://github.com/ethereum/eth2.0-pm/issues/239) \| [notes](AllCoreDevs-CL-Meetings/call_074.md) \| reddit | [video](https://www.youtube.com/watch?v=5vGxLoTUqaQ)
-73|Thu, Sept 23, 2021 1400UTC|[agenda](https://github.com/ethereum/eth2.0-pm/issues/237) \| [notes](AllCoreDevs-CL-Meetings/call_073.md) \| reddit | [video](https://youtu.be/Pes_OaMJeDc)
-72|Thu, Sept 9, 2021 1400UTC|[agenda](https://github.com/ethereum/eth2.0-pm/issues/235) \| [notes](AllCoreDevs-CL-Meetings/call_072.md) \| reddit | [video](https://www.youtube.com/watch?v=k3heiZA5j5s)
-71|Thu, August 26, 2021 1400UTC|[agenda](https://github.com/ethereum/eth2.0-pm/issues/233) \| [notes](AllCoreDevs-CL-Meetings/call_071.md) \| reddit | [video](https://youtu.be/DZiy3RhUgNY)
-70|Thu, August 12, 2021 1400UTC|[agenda](https://github.com/ethereum/eth2.0-pm/issues/232) \| [notes](AllCoreDevs-CL-Meetings/call_070.md) \| reddit | [video](https://youtu.be/24MRTRDJ-iw)
-69|Thu, July 29, 2021 1400UTC|[agenda](https://github.com/ethereum/eth2.0-pm/issues/229) \| [notes](AllCoreDevs-CL-Meetings/call_069.md) \| reddit | [video](https://www.youtube.com/watch?v=NJWYZ0gABfg)
-68|Thu, Jul 15, 2021 1400UTC|[agenda](https://github.com/ethereum/eth2.0-pm/issues/226) \| [notes](AllCoreDevs-CL-Meetings/call_068.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/oksqn4/live_ethereum_20_call_68_20210715_1400_gmt/) | [video](https://www.youtube.com/watch?v=-Bzq4s8Lr5E)
-67 | Thu, July 1st, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/224) \| [notes](AllCoreDevs-CL-Meetings/call_067.md) \| no reddit | [video](https://youtu.be/FNXk4ScqHn0) |
-66 | Thu, Jun 17rd, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/222) \| [notes](AllCoreDevs-CL-Meetings/call_066.md) \| no reddit | [video](https://www.youtube.com/watch?v=ZSMrxG1LAck&ab_channel=EthereumFoundation) |
-65| Thu, Jun 3, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/220) \| [notes](AllCoreDevs-CL-Meetings/call_065.md) \| no reddit | [video](https://www.youtube.com/watch?v=cgH8OsCg9tY) 
-64| Thu, May 20, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/218) \| [notes](AllCoreDevs-CL-Meetings/call_064.md) \| no reddit | [video](https://youtu.be/A1L7wLYAqnM) 
-63| Thu, May 6, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/217) \| [notes](AllCoreDevs-CL-Meetings/call_063.md) \| no reddit | [video](https://youtu.be/qhcMxBh0GEc)
-62| Thu, April 22, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/214) \| [notes](AllCoreDevs-CL-Meetings/call_062.md) \| no reddit | [video](https://youtu.be/D9Aqr8thF9c)
-61| Thu, April 8, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/212) \| [notes](AllCoreDevs-CL-Meetings/call_061.md) \| no reddit | [video](https://www.youtube.com/watch?v=XLB5HEWdZUE&list=PLaM7G4Llrb7wv3Z4XD82Skm78DaMrJEBA&index=2)
-60| Thu, March 25, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/210) \| [notes](AllCoreDevs-CL-Meetings/call_060.md) \| no reddit | [video](https://youtu.be/Q0EbnFViJFk)
-59|Thu, March 11, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/208) \| [notes](AllCoreDevs-CL-Meetings/call_059.md) \| no reddit | [video](https://youtu.be/s017DQlsCCw)
-58|Thu, February 25, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/206) \| [notes](AllCoreDevs-CL-Meetings/call_058.md) \| no reddit | [video](https://youtu.be/yrDVhoTg5XU)
-57|Thu, February 11, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/203) \| [notes](AllCoreDevs-CL-Meetings/call_057.md) \| no reddit | [video](https://youtu.be/z3Gj6TXgcb0)
-56|Thu, Jan 28, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/200) \| [notes](AllCoreDevs-CL-Meetings/call_056.md) \| no reddit | [video](https://youtu.be/_WK3k_k-4w8)
-55| Thu, Jan 14, 2021 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/198) \| [notes](AllCoreDevs-CL-Meetings/call_055.md) \| no reddit | [video](https://youtu.be/xNt6MmEV3JI) 
-54|Thu, Dec 17, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/196) \| [notes](AllCoreDevs-CL-Meetings/call_054.md) \| no reddit | [video](https://youtu.be/Eo7H8fZA23E) 
-53| Thu, Dec 2, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/193) \| [notes](AllCoreDevs-CL-Meetings/call_053.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/k5seju/live_ethereum_20_call_53_2020123_1400_gmt/) | [video](https://youtu.be/8mE--yxMZtk) 
-52| Thu, Nov 12, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/191) \| [notes](AllCoreDevs-CL-Meetings/call_052.md) \| reddit | [video](https://youtu.be/yFjs_tB6I-Y) 
-51|Thu, Oct 29, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/189) \| [notes](AllCoreDevs-CL-Meetings/call_051.md) \| reddit | [video](https://youtu.be/_4Ry2AEzXGU) 
-50| Thu, Oct 15, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/187) \| [notes](AllCoreDevs-CL-Meetings/call_050.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/jbi8rd/live_ethereum_20_call_50_20201015_1400_gmt/) | [video](https://www.youtube.com/watch?v=L4Dvlgxku1g) 
-49|Thu, Oct 1, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/184) \| [notes](AllCoreDevs-CL-Meetings/call_049.md) \| reddit | [video](https://youtu.be/IRWQUQfq7yQ) 
-48|Thu, Sept 17, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/181) \| [notes](AllCoreDevs-CL-Meetings/call_048.md) \| reddit | [video](https://youtu.be/5GYF6gCIbGE) 
-47|Thu, Sept 3, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/178) \| [notes](AllCoreDevs-CL-Meetings/call_047.md) \| reddit | [video](https://youtu.be/FhFIog9D0II)
-46|Thu, August 20, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/173) \| [notes](AllCoreDevs-CL-Meetings/call_046.md) \| reddit | [video](https://youtu.be/g3fKTfBXArU)
-45|Thu, August 8, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/171) \| [notes](AllCoreDevs-CL-Meetings/call_045.md) \| reddit | [video](https://youtu.be/DVePZUQOyFk)
-44|Thu, July 23, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/169) \| [notes](AllCoreDevs-CL-Meetings/call_044.md) \| reddit | [video](https://youtu.be/MMNgoDYKvhQ)
-43|Thu, July 9, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/165) \| [notes](AllCoreDevs-CL-Meetings/call_043.md) \| reddit | [video](https://youtu.be/4IooxDX_GfU)
-42|Thu, June 25, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/162) \| [notes](AllCoreDevs-CL-Meetings/call_042.md) \| reddit | [video](https://youtu.be/P1AEmUt9ltg)
-41| Thu, Jun 11, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/158) \| [notes](AllCoreDevs-CL-Meetings/call_041.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/h0z8bm/live_ethereum_20_call_41_2020611_1400_gmt/) | [video](https://youtu.be/WmU3k2v4UA8) 
-40| Thu, May 28, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/154) \| [notes](AllCoreDevs-CL-Meetings/call_040.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/gs7th7/eth20_call_40_2020527/) |[video](https://youtu.be/xvIk22HvTVE)
-39| Thu, May 14, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/149) \| [notes](AllCoreDevs-CL-Meetings/call_039.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/gjgu83/live_ethereum_20_call_39_2020514_1400_gmt/) |
-38| Thu, Apr 23, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/145) \| [notes](AllCoreDevs-CL-Meetings/call_038.md) \| reddit |[video](https://youtu.be/avRcGzfjeIw)
-37| Thu, Apr 09, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/141) \| [notes](AllCoreDevs-CL-Meetings/call_037.md) \| reddit |[video](https://www.youtube.com/watch?v=aEJ9Pw7yFYM)
-36| Thu, Mar 26, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/135) \| [notes](AllCoreDevs-CL-Meetings/call_036.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/fpbvv1/live_ethereum_20_call_36_2020326_1400_gmt/) | [video](https://www.youtube.com/watch?v=Vn1oHH55yPk) 
-35| Thu, Mar 3, 2020 14:00 UTC  | [agenda](https://github.com/ethereum/eth2.0-pm/issues/132) \| [notes](AllCoreDevs-CL-Meetings/call_035.md) \| reddit | [video](https://www.youtube.com/watch?v=orVYfqP_YuQ) 
-34| Thu, Feb 27, 2020 14:00 UTC   | [agenda](https://github.com/ethereum/eth2.0-pm/issues/129) \| [notes](AllCoreDevs-CL-Meetings/call_034.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/fa957t/live_ethereum_20_call_34_2020227_1400_gmt/) | [video](https://www.youtube.com/watch?v=tLiMgFoG_vs) 
-33| Thu Feb 06, 2020 14:00 UTC    | [agenda](https://github.com/ethereum/eth2.0-pm/issues/126) \| [notes](AllCoreDevs-CL-Meetings/call_033.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/ezpqyy/live_ethereum_20_call_33_202026_1400_gmt/) | [video](https://www.youtube.com/watch?v=c8BhhPfdy0A) 
-32| Thu, Jan 23, 2020 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/123) \| [notes](AllCoreDevs-CL-Meetings/call_032.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/esq90y/live_ethereum_20_call_32_2020123_1400_gmt/) | [video](https://www.youtube.com/watch?v=kt59-FEeWTI) 
-31| Thu, Jan 09, 2020 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/118) \| [notes](AllCoreDevs-CL-Meetings/call_031.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/em7erh/live_ethereum_20_call_31_202019_1400_gmt/) | [video](https://www.youtube.com/watch?v=u2w4EO9YepI) 
-30| Thu, Dec 19, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/112) \| [notes](AllCoreDevs-CL-Meetings/call_030.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/ecrgfh/live_eth20_call_30_20191219_1400_gmt/) | [video](https://www.youtube.com/watch?v=LYLiqpj-wiE) 
-29| Thu, Dec 5, 2019 14:00 UTC     | [agenda](https://github.com/ethereum/eth2.0-pm/issues/108) \| [notes](AllCoreDevs-CL-Meetings/call_029.md) \| no reddit | [video](https://www.youtube.com/watch?v=MxeEWmEdb5E) 
-28| Thu, Nov 21, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/101) \| [notes](AllCoreDevs-CL-Meetings/call_028.md) \| no reddit | [video](https://www.youtube.com/watch?v=DzLrxuN55VA) 
-27| Thu, Nov 7, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/95) \| [notes](AllCoreDevs-CL-Meetings/call_027.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/dsxbhc/live_eth20_call_27_2019117_1400_gmt/) | [video](https://www.youtube.com/watch?v=4_EGNG-Yek4) 
-26| Thu, Oct 24, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/89) \| [notes](AllCoreDevs-CL-Meetings/call_026.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/dmgoqf/live_eth20_implementers_call_26_20191024_1400_gmt/) | [video](https://www.youtube.com/watch?v=DXGeC7cg71Y) 
-25| Thu, Sep 9, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/85) \| [notes](AllCoreDevs-CL-Meetings/call_025.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/d6beer/eth20_implementers_call_25_2019919_1400_gmt/) | [video](https://www.youtube.com/watch?v=pEdqjXO6euY) 
-24| Thu, Aug 29, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/73) \| [notes](AllCoreDevs-CL-Meetings/call_024.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/cwxlye/live_eth20_implementers_call_24_2019829_1400_gmt/) | [video](https://www.youtube.com/watch?v=sz87_i5Uy1I) 
-23| Thu, Aug 15, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/68) \| [notes](AllCoreDevs-CL-Meetings/call_023.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/cqng6t/live_eth20_implementers_call_23_2019815_1400_gmt/) | [video](https://www.youtube.com/watch?v=Av74vZRXeKo) 
-22| Thu, Jul 25, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/64) \| [notes](AllCoreDevs-CL-Meetings/call_022.md) \| no reddit | [video](https://www.youtube.com/watch?v=ReSiB2940AE) 
-21| Thu, Jul 11, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/55) \| [notes](AllCoreDevs-CL-Meetings/call_021.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/cbsyu4/live_eth20_implementers_call_21_2019711_1400_gmt/) | [video](https://www.youtube.com/watch?v=YB8o_5qjNBc) 
-20| Thu, Jun 13, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/51) \| [notes](AllCoreDevs-CL-Meetings/call_020.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/c6nuwh/eth20_implementers_call_20_2019627/) | [video](https://www.youtube.com/watch?v=Y8rhSbtY-Pg) 
-19| Thu, Jun 13, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/45) \| [notes](AllCoreDevs-CL-Meetings/call_019.md) \| no reddit | [video](https://www.youtube.com/watch?v=izspfej05lE) 
-18| Thu, May 23, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/43) \| [notes](AllCoreDevs-CL-Meetings/call_018.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/bs37os/eth20_implementers_call_18_2019523/) | [video](https://www.youtube.com/watch?v=dw2GmEuLr5k) 
-17| Thu, May 02, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/42) \| [notes](AllCoreDevs-CL-Meetings/call_017.md) \| no reddit | [video](https://www.youtube.com/watch?v=bi7lh5Ie3x0) 
-16| Thu, Apr 18, 2019 14:00 UTC      | [agenda](https://github.com/ethereum/eth2.0-pm/issues/37) \| [notes](AllCoreDevs-CL-Meetings/call_016.md) \| no reddit | [video](https://www.youtube.com/watch?v=eN_O8bSaS5Q) 
-15| Thu, Mar 28, 2019 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/35) \| [notes](AllCoreDevs-CL-Meetings/call_015.md) \| no reddit | [video](https://www.youtube.com/watch?v=bC4v_a-gcrs) 
-14| Thu, Mar 14, 2019 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/33) \| [notes](AllCoreDevs-CL-Meetings/call_014.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/b0ud27/live_eth20_implementers_call_14_201903214_starts/)  | [video](https://www.youtube.com/watch?v=zeceWlmxseY) 
-13| Thu, Feb 28, 2019 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/31) \| [notes](AllCoreDevs-CL-Meetings/call_013.md) \| no reddit  | [video](https://www.youtube.com/watch?v=0ZWG8hMbxes) 
-12| Thu, Feb 14, 2019 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/29) \| [notes](AllCoreDevs-CL-Meetings/call_012.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/aqe147/eth20_call_12_stream/)  | [video](https://www.youtube.com/watch?v=p1qHM2B8cGc) 
-11| Thu, Jan 31, 2019 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/27) \| [notes](AllCoreDevs-CL-Meetings/call_011.md) \| no reddit | [video](https://www.youtube.com/watch?v=wS3sOB_hfgk) 
-10| Thu, Jan 17, 2019 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/23) \| [notes](AllCoreDevs-CL-Meetings/call_010.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/agtomc/live_eth20_implementers_call_10_20190116_1400_utc/)  | [video](https://www.youtube.com/watch?v=KZ9fms_PrQU) 
-9| Thu, Jan 03, 2019 14:00 UTC       | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/21) \| [notes](AllCoreDevs-CL-Meetings/call_009.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/ac1smo/livestream_eth20_implementers_call_9_201913_2pm/)  | [video](https://www.youtube.com/watch?v=6trA-5rjZUQ) 
-8| Thu, Dec 13, 2018 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/19) \| [notes](AllCoreDevs-CL-Meetings/call_008.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/a5n11i/stream_eth20_implementers_call_8_20181213/)  | [video](https://www.youtube.com/watch?v=NO9UlkpFKA0) 
-7| Thu, Nov 29, 2018 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/17) \| [notes](AllCoreDevs-CL-Meetings/call_007.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/a18tlu/stream_eth20_implementers_call_7_11292018_2pm_utc/)  | [video](https://www.youtube.com/watch?v=Zl-yusB8oqY) 
-6| Thu, Nov 15, 2018 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/15) \| [notes](AllCoreDevs-CL-Meetings/call_006.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/9x5kk6/live_eth20_implementers_call_6_20181115_2pm_utc/)    | [video](https://www.youtube.com/watch?v=VNwANifX7qE) 
-5| Thu, Oct 11, 2018 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/11) \| [notes](AllCoreDevs-CL-Meetings/call_005.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/9nb2uk/eth20_implementers_call_5_101118_fixed/)    | [video](https://www.youtube.com/watch?v=cNLO3vyod-E) 
-4| Thu, Sept 27, 2018 14:00 UTC     | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/8)  \| [notes](AllCoreDevs-CL-Meetings/call_004.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/9jd5sk/eth20_implementers_call_4_9272018_live/)    | [video](https://www.youtube.com/watch?v=SvcqFEwyZo0) 
-3| Thu, Sept 13, 2018 14:00 UTC     | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/5)  \| [notes](AllCoreDevs-CL-Meetings/call_003.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/9femq0/stream_eth20_implementers_call_3_9132018/)  | [video](https://www.youtube.com/watch?v=cp0LxJiyV3I) 
-2| Thu, Aug 30, 2018 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/3)  \| [notes](AllCoreDevs-CL-Meetings/call_002.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/9bjk2u/video_eth20_implementers_call_2/)           | [video](https://www.youtube.com/watch?v=66SFMJC0RQo) 
-1| Thu, Aug 16, 2018 14:00 UTC      | [agenda](https://github.com/ethresearch/eth2.0-pm/issues/2)  \| [notes](AllCoreDevs-CL-Meetings/call_001.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/97siac/live_eth20_implementers_call_1/)            | [video](https://www.youtube.com/watch?v=8F9NPGIv9vI) 
-0| Thu, Aug 02, 2018 14:00 UTC       | [agenda](https://github.com/ethereum/beacon_chain/issues/44) \| [notes](AllCoreDevs-CL-Meetings/call_000.md) \| [reddit](https://www.reddit.com/r/ethereum/comments/949eo6/ethereum_sharding_implementers_call_0/)     | [video](https://www.youtube.com/watch?v=Ynqrka5DQOI) 
+## Agenda
+## Dencun Updates
+
+## Goerli Shadow Fork
+
+
+## Add eth_gasPrices; add blobs to eth_feeHistory execution-apis#486
+
+## Proposal: RPC method to retrieve all of eth_getBlock, eth_gasPrice, eth_maxPriorityFeePerGas, and eth_blobGasPrice
+
+
+
+  
+**Tim Beiko** [02:23](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=143s): Welcome everyone to ACDE number #174. So we'll cover Dencun today. Some updates on the Goerli Fork, Client updates. There's also some RPC discussion that people wanted to bring up. And then aside from that Guillaume has a Verkle EIP to discuss. And then given its Devconnect next week and US Thanksgiving after that. It makes sense to figure out which calls we want to have in the next couple weeks and whether we want to cancel. So any of them? I guess, to start on the Goerli Shadow Fork. Pari, I believe you shared this analysis. Do you want to give us a quick walk through how things went? 
+
+**Paritosh** [3:18](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=198s): Yeah, so we had a Goerli Shadow fork earlier this week. We basically synced up all the nodes to Goerli heads. Then started a new Beacon chain and forked off a small section of the nodes. So roughly 21 nodes. And afterwards we set the Dencun Forks. So we had we enabled Dencun on Goerli. Since then we've been running Xatu to collect all the metrics so blob arrival times Etc. And the analysis is shared there. I think there's nothing insane that pops out there's a couple of like regular spikes. We're still not 100% sure why? But besides that block processing times. And gossip times look really low but that's also kind of expected considering it's a really small Network. The main takeaway or the thing that we're yet to properly analyze is the amount of time it takes to build payloads Etc doesn't look very high. So we're still getting organic transaction gossip from Goerli. So the question is just is there anything else we should be trying on this network before we delete it? 
+
+
+**Tim Beiko** [4:32](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=272s): Thanks anyone have anything they would like to see on the Shadow Fork. 
+
+**Danny** [4:37](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=277s): Yeah I mean my intuition is given, we're doing the CL networking rework. And given that so far things look stable and you know it's a good test that we probably have what we need. And we're probably going to want to run another one and potentially after we run another one another one at scale but after we have the rework on the consensus layer.
+
+**Tim Beiko** [5:00](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=300s): Right this is basically our Baseline uh before that change comes in.
+
+**Danny** [5:05](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=305s): Yeah so I mean as a baseline it sounds like it worked. I don't personally see.  More stuff to do right now.
+
+
+**Tim Beiko** [5:11](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=311s): So I guess for the next ones. Do we see value in having it and on Goerli again? Would we want to go straight to mainnet for the next Shadow Fork? Yeah the teams have an opinion about that for devops.
+
+**Paritosh** [5:36](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=336s): I think mainly we prefer continuing Goerli Shadow Fork because it's relatively most of the upgrade changes we're going to notice up here peer to peer Layer and renting more nodes that can support the goerli network is cheaper than renting more nodes for mainnet. We're definitely going to do a mainnet Shadow Fork before we do the official main net for but the question is just do we do that earlier or later.
+
+**Tim Beiko** [6:01](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=361s): Okay in that
+case I think yeah it probably makes sense to do goerli again as the first one. And if there's no issues then move to mainnet.
+
+
+**Danny** [6:12](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=372s): And yeah I'd be an advocate for that doing a large Goerli after doing a small Goerli then doing a small mainnet, doing a large mainnet but again after we're pass another couple of Devnets with the fix or at least one.
+
+
+**Tim Beiko** [6:28](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=388): Yeah I agree. I would do at least one devet with the final spec changes before we do another Shadow Fork. Does anyone see the need to do another Shadow Fork before that.
+
+**Danny** [7:03](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=423s): Yeah I should just barring unless devops is just trying to strength and devops tooling. I wouldn't continue to do them now. 
+
+
+**Paritosh** [7:14](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=434s): They used to testing in proud we’re fine.
+
+**Tim Beiko** [7:20](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=440s): Nice. Okay anything else on the shadow fork? 
+
+
+
+
+## Add eth_gasPrices; add blobs to eth_feeHistory execution-apis#486
+## Proposal: RPC method to retrieve all of eth_getBlock, eth_gasPrice, eth_maxPriorityFeePerGas, and eth_blobGasPrice
+
+Okay if not so the second thing on the agenda, so there was a PR to add the Blob gas price to eth_feeHistory. And then in the comments there was a proposal to also have a single RPC method that returns all of the gas price related values but maybe. Alexey, do you want to start walking us through your PR and then we can discuss the alternative proposal that was posted in it. 
+
+**Alexey** [8:03](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=483s): 
+Yeah, let me try to present. So let's try to start from a very brief description. What is blob gas and why do we need API for it? So blob gas is like I guess in  addition to regular one, which is used for blobs and is relevant for blob transactions now. And to understand how much, what price maximum price for blob gas is needed to, we mentioned in the transaction. We need to provide some kind of estimation. To include this data after all in to block transaction. Specifically the fill from Blob gas. To do this we can query it through a new endpoint. There are two variations initially is gasPrices was provided and form of this point it's a pretty simple method that returns several various regular gas which can be used like a regular gas cap or the transaction blobGas and maxPriority which can be set as a tip for transaction which started working from EIP #1559 and a simpler version of
+It. If we just return blobGasPrice and it can be used when posting when sending blob transactions. I have no strong preference. I thought that the first approach could be more optimal, because we return this data based on the same structures like Blobs and it could be one method because usually all these values are queried together. But after all we can do just a batched call which can be done quite simply. And my work too another update is for history in addition to regular gas ratio and baseFee per such kind of gas. We could add the same for blob gas. And other fields do not need any change because they like report are about prosthetic. That's an update would like to propose and happy to hear feedback. 
+
+
+**Tim Beiko** [12:36](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=756s): So thank you. Does anyone have thoughts preferences on the various options.
+
+**Alexey** [12:52](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=772s): I would post the link with the examples and description.
+
+
+**Tim Beiko** [13:11](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=791s): Okay so there's a question about whether this already exists in GraphQL. Does anyone
+Know?
+
+**Devconnect** [13:26](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=806s): Pretty unlikely it does not. 
+
+
+**Tim Beiko** [13:28](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=808s): Okay.
+
+**Devconnect** [13:33](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=813s): I mean I shared some thoughts on the PR but I generally would prefer to have eth_blobgasPrice because that sort of follows the pattern that we currently have. And unless there's like a strong reason to do the gasPrices. So I was hoping someone might make an argument for that but as it is, we don't really need to return gasPrice. As far as I know because that's kind of a legacy value we really just need the max_Priority fee and the base fee. And now the Blob gas price. So I would prefer to have it as a separate method and just expect people to batch the RPC request.
+
+
+**Tim Beiko** [14:26](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=866s): Got it and I know, so there were some comments on the agenda in the Discord now for having a single call. Does anyone want to make the case for why batching them in a or why combining them in a single call is better? If not it feels like we should at the very least add blob gas price that seems kind of like a no-brainer. It also seems like a no-brainer to update eth_fee history that also include the data there. How do people feel about merging those two and then if the bundled method maybe doesn't have to be part of the spec. But if clients want to offer it they obviously can just add extra RPC’s. But that at least on the JSON RPC spec we'd have a single method for ETH blob gas price. We'd have the blob values as part of fee history. And then the rest is sort of an optional thing clients can do.  Oh and there's an argument that clients should not do stuff that's not in the specs which unfortunately we can't control what clients do. But I guess, does anyone disagree with merging the single blob gas price method and the changes to fee history. And not having the combined one and worst case we can also always do the combine one later if there's enough demand for it.
+
+
+**Devconnect** [16:18](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=978s): I'm not sure if there is any L2 people or someone who is working with ethers who wanted to chime in since they're the people who are using I guess not. We can try and follow up with those folks, but yeah we'll move with the one method and update in Fee history.
+
+**Tim Beiko** [16:54](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1014s): Okay, anything else on that? Okay if not anything else on Dencun at all that wasn't included on the agenda. 
+
+Okay then next up, Guillaume, you wanted to discuss Verkle proof verification precompile?
+
+
+
+
+## Add EIP: Verkle proof verification precompile EIPs#7926
+
+
+ 
+
+**Guillaume** [17:27](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1047s): Yep. So I mean it's more like, I was trying to bring people's attention to it. So it comes from a conversation I had with some people from openZeppelin at first and then other people afterwards. Let me see if I can share my screen. Yeah should Work. So it's really about collecting input. The idea is simple. It's because verkle entails a lot of complex math updating a lot of tools. The idea that came up would be to use a pro verification pre compiles. So offer a pre-compile. So for example Bridges or I forgot the word for L2s but L2 Bridges let's call them or even application developer could verify verkle proofs. So that they don't have to wait for all the libraries like opens Zeppelin like Foundry to get up to speed and like get up to speed and Implement that in in solidity so it's just about adding a simple pre-compile So currently I suggested 0x21 as an address. But yeah of course that can be changed. And the idea is that it receives a chunk of memory that starts with a version bite. And then where where the proof data can be found. Sorry, actually so it first receives a version bite and then a location memory where the proof data can be found along with its size. And also the state root of the tree that the proof is proven against and what the pre-compiled does. So it's upgradeable if we want to move on to different proof system. But if version is zero we use the the standard polynomial commitment scheme, suggested like polynomial commitment scheme based multi proof that was suggested by Dankrad. And otherwise we return one if the proof verifies and zero otherwise and there's also like the EIP also describe gas costs. So I think the model is not really complete. For example, I realize it's missing some data to actually verifying the IP’s approve but that will be updated. But the general idea is you have this constant Point cost that corresponds to every time you need decentralised  commitment. So it's paid for each commitment to get that gas decentralised and then you need to evaluate the Polynomial at some opening point. So you also pay that for each opening you have to do. Yeah there's not much more to that. I mean clearly it's something that needs a lot more input. So that's why I want to bring your attention to it. Of course if there are questions I'm happy to answer but it's more like a call for Code pseudo to pay attention to that. 
+
+
+**Tim Beiko** [21:00](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1260s): There's a hand up by Devconnect Berlin.
+
+**Devconnect Berlin** [21:06](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1266s): Yeah! Hello, this curve is over bandersnatch or sorry like this approving scheme would be over bandersnatch the curve?
+
+**Guillaume** [21:14](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1274s): Benderwagon.
+
+**Devconnect Berlin** [21:16](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1276s):
+Benderwagon. Okay so I guess my question is how it relates to the BLS12 curve and if there's any interplay between those set of precompiles and this 
+One.
+
+**Guillaume** [21:27](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1287s): How does it relate, I mean I forgot which of the two Fields is the one from BLS but otherwise it's my understanding is that it's a completely different curve. I'm not an easy elliptic curve expert but my understanding is that they are different. And so you could potentially, I guess use that precompile that BLS pre-compile but you would have to reimplement all the proving yourself all the commitment. Sorry, the multi proof proving yourself. So, that means that every application developer would have to reimplement that and the goal of this contract is to save some time.
+
+
+**Devconnect** [22:18](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1338s): Right. So we just have pre- compiles for both then because that's something I'd like to do for the next hard Fork is the BLS12 -381 curve. But, it sounds like they're almost similar but not quite exact. 
+
+
+**Guillaume** [22:33](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1353s):  So they are completely different curve?
+
+
+**Dankrad Feist** [22:35](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1355s): Yeah so no this the BLS precompile cannot verify the verkle proofs. We could add a bandersnatch precompile. I think that would actually also make sense probably. I think my preference is actually to have a state verification pre- compile. And the reason is that when we change the state in the future we could make it Backward Compatible. So that smart contracts can be built that verify a part of the state. And you can just upgrade the state commitment and the smart contract could be completely the same. And would so it could be an immutable smart contract. And I think that would be preferable rather than having to have lots of smart contracts upgrade. If we do need to change the state commitment in the future again. 
+
+
+
+**Tim Beiko** [23:50](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1430s): Got it. Danno you had your hand up yeah.
+
+
+**Danno Ferrin** [23:54](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1434s): Yeah. This might be a controversial take on this but I think one of the great things about #4788 as a pre-compile is that, there is EVM code that says this is the pre-compile. This is the canonical answer. So this kind of goes against some of the idea that you know why wait for open Zeppelin to implement this in solidity. What if all pre-compile is going forward that the canonical form is a
+form of solidity or Viper or fee or whatever. And that defines it in modulo gas. You know we're going to have to change a gas schedule on that. And that the clients could do a pre-compile that would optimize that but would truly be a pre-compile at that point there would be an uncompiled version that is the Canonical this is a reference implementation. This is the correct state. It would solve a lot of problems in devs who aren't you know PHD’s in cryptography trying to. Get the small little details of these curves correct when they don't necessarily have a large set of test cases to run against.
+
+
+
+**Tim Beiko** [24:58](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1498s): And so the implication here is you can Implement any of them in solidity basically.
+
+
+
+**Danno Ferrin** [25:06](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1506s): Right and early on when you don't have when you're work doing the next hard work the client you just slide that precompile slide. The EVM in and then when you optimize it you come check if you got some local code it'll always be correct.
+
+
+
+
+**Dankrad Feist** [25:19](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1519s): So this curve specifically will be used for verkle trees anyway, right. So all clients will need I mean we have already created libraries for that. So I mean I think like currently the general position is that client tests never touch the cryptography themselves. Well unless they are really comfortable with it. And that we have readymade libraries and that's already the case for verkle in this case. 
+
+
+
+**Danno Ferrin** [25:47](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1547s): So yeah verkle does kind of change this argument a bit since it's gonna have to be part of the client. But I think it's just an idea I want to put out there for like cryptography not necessary. I was commenting on this. but
+
+**Dankrad Feist** [25:55](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1555s): The idea is good particular EIP.
+
+
+**Tim Beiko** [26:01](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1561s): This is a bit off topic but could we do that for BLS or because I remember like the whole debates around EVM Max were to allow us to build BLS on a one but.
+
+
+**Danno Ferrin** [26:15](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1575s): I know the Epsilon team at one hackathon did through EVM Max the existing precompilers. I don't know if they moved on to BLS12 and using EVM Max. Right.
+
+**Tim Beiko** [26:28](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1588s): Got it. Okay and I assume I guess back to just the original EIP. I assume there's an ETH magicians link people can raise issues there but were there any other questions about the EIP.
+
+
+**Devconnect** [26:52](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1612s): Are there specific implementations you can point to of this like the multi proof PCS.
+
+
+**Guillaume** [26:59](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1619s): The multi proof PCS itself. Yes they are there's, I mean one of them is go verkle the other one is there's a python implementation reference implementation in fact by dankrad. And there's a rust one I think. Oh yeah there might be a nethermind one to a C sharp one by nethermind. But yeah there's no there's no implementation of a pre-compile itself. But it's going to be easy to couple together if that's what you need.
+
+
+**Devconnect** [27:30](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1650s): Yeah just curious maybe toss links to those repos and the ETH magician stand.
+
+**Guillaume** [27:37](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1657s): Sure.
+
+
+**Tim Beiko** [27:41](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1661s): Cool. Anything else on the precompile. Okay, there's a comment around saying they've started implementing BLS at EVMMax and after Devconnect we'll know if it's possible. Anything else people wanted to chat about. I had the call scheduled but there's anything more substantive we can get to that first. If not, next week there's Devconnect. 
+
+## ACDC during Devconnect, US Thanksgiving
+
+So next week we should have had a testing call on Monday and ACDC on Thursday. The people want to keep either of those. Yeah does anyone feel like there's value in having them or should we wait until either the week after just as it heads up that'll be American Thanksgiving on the Thursday.
+
+**Danny** [28:54](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1734s): I was thinking if we don't do the consensus layer call. I might ping on that Thursday the Discord and just ask for like a quick written update from the consensus layer teams on getting through the networking changes. And surface any issues that maybe have arise or unknowns at that point and we could do a similar thing the week after on like Wednesday if we don't do the Thanksgiving call US Thanksgiving call. 
+
+
+**Tim Beiko** [29:20](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1760s): We could also have the call on a Wednesday you know if we want to have one the week after and not skip two weeks in a row. 
+
+
+**Danny** [29:28](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1768s): Well and I guess one of the main things that will come up in that time period is if there are open issues or questions related to this update. So I'm also okay like doing the Ping a couple times and then scheduling an ad hot call if we need it.
+
+**Tim Beiko** [29:49](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1789s): Okay that works for me does anyone have oh Ben?
+
+
+**Ben Edington** [29:56](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1796s): Yeah just interested in signalling. So just delving back into into history when we were planning the capella and the dencun upgrades. We committed, we broke the on pass about delivering both together by committing to doing #4844 as a fast follow on to capella with withrawal. We're talking about June /July time which is amusing in ambitious in Retrospect. But I'm concerned about the Optics you know these week here and week there add up to delay over time. We've seen it time and time again. And I know everyone is working super hard on delivering deneb cancun but because I'm inside the process but from outside the process you know cancelling two core Dev calls in a row doesn't the Optics. Don't look great to me and I'm starting to see things hotting up again on the need to deliver this thing. So that would be my case for keeping the Calls. Obviously there's no point if nobody's going to be here but I think generally that should be our default approach.
+
+**Tim Beiko** [31:12](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1872s): Yeah I'm also, I have less of a strong opinion on the devconnect one just because there will be a lot of people there even though there may be a bit less than expected. I do like the idea of having your written update though from client teams. So that we can still get a status update and I'm happy to keep. I'm not American. So I'm happy to do the one on US Thanksgiving, the week after that. And or to move it to or to move it to like Wednesday if that means more people show up. So either of those is fine for me. Yeah and maybe I don't know maybe we can get teams to chime in on the Discord. If they have a preference but yeah I agree like skipping two might not be ideal. So we can maybe do next week's async get an update from teams and then figure out the best day for the week after that. Do people think that make sense? Okay I'll post something in the Discord get some more feedback from client teams. Oh now there's more and more support for having the calls. Okay I'm fine either way. I don't know Danny, do you want to do a quick call next week?  
+
+**Danny** [32:53](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1973s): I don't mind, I'm comfortable either way. I might not live stream it given my remote capabilities and setup. I might even take the call from a phone but. 
+
+**Tim Beiko** [33:12](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=1992s): I think we can probably find someone to live stream it. Yeah Okay then let's keep both calls I guess. Okay let's default to this let's keep both calls. If people if like a whole team cannot make a call and share a written update on the agenda and we can kind of point it out at least on the call but there will be a call. And we'll try our best to live stream it but worst case we'll just upload the zoom recording later. And yeah if you're team can't make it just share an update.
+
+**Danno** [33:50](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=2030s): When I toss up the agenda I'll make a comment too. If you can attend to share it, update in the agenda.  
+
+
+**Tim Beiko** [34:01](https://www.youtube.com/watch?v=TQ2XEvMzvFg&t=2041s): Sweet anything else? Oh and I guess maybe the only one I just wanted to check do we want the testing call Monday as well or do we I especially given these All core Devss have become shorter. I would lean towards cancelling next Monday's testing call though and just having ACDC next Thursday ACDE the Thursday after that and then whichever next I think the next testing call was scheduled for the Monday after that one. So November 27th but I think having just one syn call next week is probably sufficient. Does anyone think we should have the testing call as well on Monday? 
+
+Okay cool. So let's do that, we'll add a note in the agenda and we'll share something in the Discord. Thank you Ben for pushing us to stay on track anything else anyone wanted to discuss. Okay well thanks everyone I will see you all at or most of you at devconnect next week. And then we'll see everyone on ACDC whether you're at devconnect or not next Thursday talk to you all soon. Thanks bye.
+
+# Attendees
+
+* Tim Beiko
+* Guillaume
+* FLCL
+* Ben Edgington
+* Paritosh
+* Danno Ferrin
+* Echo
+* Devconnect Berlin
+* Justin Traglia
+* Pooja Ranjan
+* Daniel Lehmer
+* Gajinder
+* Damian
+* Piotr
+* Matt Nelson
+* Fabio Di Fabio
+* Enrico Del Fante
+* Hsiao-Wei Wang
+* Stefan Bratanov
+* Ayman
+* Tukasz Rozmej
+* Tomasz Stariczak
+* Danny
+* Dankrad Feist
+* Roberto B
+* Mehdi Aouadi
+* Marcin Sobczak
+* Mario Vega
+* Denis Kolodin
+* Ameziane Hamlat
+* Andrew Ashikhmin
+* Gabriel Fukushima
+* Trent
+* Spencer -tb
+
+### Next meeting [ 23rd November, 14:00-15:30 UTC]
+
+
